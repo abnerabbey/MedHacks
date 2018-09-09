@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07FA8F3C2144D6D000E9829A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FA8F3B2144D6D000E9829A /* AppDelegate.swift */; };
+		07FA8F3E2144D6D000E9829A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FA8F3D2144D6D000E9829A /* ViewController.swift */; };
+		07FA8F412144D6D000E9829A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07FA8F3F2144D6D000E9829A /* Main.storyboard */; };
+		07FA8F432144D6D100E9829A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07FA8F422144D6D100E9829A /* Assets.xcassets */; };
+		07FA8F462144D6D100E9829A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07FA8F442144D6D100E9829A /* LaunchScreen.storyboard */; };
+		07FA8F512144D6D100E9829A /* MeChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FA8F502144D6D100E9829A /* MeChatTests.swift */; };
+		07FA8F5C2144D6D100E9829A /* MeChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FA8F5B2144D6D100E9829A /* MeChatUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07FA8F4D2144D6D100E9829A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07FA8F302144D6D000E9829A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07FA8F372144D6D000E9829A;
+			remoteInfo = MeChat;
+		};
+		07FA8F582144D6D100E9829A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07FA8F302144D6D000E9829A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07FA8F372144D6D000E9829A;
+			remoteInfo = MeChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07FA8F382144D6D000E9829A /* MeChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07FA8F3B2144D6D000E9829A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		07FA8F3D2144D6D000E9829A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		07FA8F402144D6D000E9829A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07FA8F422144D6D100E9829A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07FA8F452144D6D100E9829A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		07FA8F472144D6D100E9829A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07FA8F4C2144D6D100E9829A /* MeChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07FA8F502144D6D100E9829A /* MeChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeChatTests.swift; sourceTree = "<group>"; };
+		07FA8F522144D6D100E9829A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07FA8F572144D6D100E9829A /* MeChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07FA8F5B2144D6D100E9829A /* MeChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeChatUITests.swift; sourceTree = "<group>"; };
+		07FA8F5D2144D6D100E9829A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07FA8F352144D6D000E9829A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07FA8F492144D6D100E9829A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07FA8F542144D6D100E9829A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07FA8F2F2144D6D000E9829A = {
+			isa = PBXGroup;
+			children = (
+				07FA8F3A2144D6D000E9829A /* MeChat */,
+				07FA8F4F2144D6D100E9829A /* MeChatTests */,
+				07FA8F5A2144D6D100E9829A /* MeChatUITests */,
+				07FA8F392144D6D000E9829A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07FA8F392144D6D000E9829A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07FA8F382144D6D000E9829A /* MeChat.app */,
+				07FA8F4C2144D6D100E9829A /* MeChatTests.xctest */,
+				07FA8F572144D6D100E9829A /* MeChatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07FA8F3A2144D6D000E9829A /* MeChat */ = {
+			isa = PBXGroup;
+			children = (
+				07FA8F3B2144D6D000E9829A /* AppDelegate.swift */,
+				07FA8F3D2144D6D000E9829A /* ViewController.swift */,
+				07FA8F3F2144D6D000E9829A /* Main.storyboard */,
+				07FA8F422144D6D100E9829A /* Assets.xcassets */,
+				07FA8F442144D6D100E9829A /* LaunchScreen.storyboard */,
+				07FA8F472144D6D100E9829A /* Info.plist */,
+			);
+			path = MeChat;
+			sourceTree = "<group>";
+		};
+		07FA8F4F2144D6D100E9829A /* MeChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				07FA8F502144D6D100E9829A /* MeChatTests.swift */,
+				07FA8F522144D6D100E9829A /* Info.plist */,
+			);
+			path = MeChatTests;
+			sourceTree = "<group>";
+		};
+		07FA8F5A2144D6D100E9829A /* MeChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				07FA8F5B2144D6D100E9829A /* MeChatUITests.swift */,
+				07FA8F5D2144D6D100E9829A /* Info.plist */,
+			);
+			path = MeChatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07FA8F372144D6D000E9829A /* MeChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07FA8F602144D6D100E9829A /* Build configuration list for PBXNativeTarget "MeChat" */;
+			buildPhases = (
+				07FA8F342144D6D000E9829A /* Sources */,
+				07FA8F352144D6D000E9829A /* Frameworks */,
+				07FA8F362144D6D000E9829A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MeChat;
+			productName = MeChat;
+			productReference = 07FA8F382144D6D000E9829A /* MeChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07FA8F4B2144D6D100E9829A /* MeChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07FA8F632144D6D100E9829A /* Build configuration list for PBXNativeTarget "MeChatTests" */;
+			buildPhases = (
+				07FA8F482144D6D100E9829A /* Sources */,
+				07FA8F492144D6D100E9829A /* Frameworks */,
+				07FA8F4A2144D6D100E9829A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07FA8F4E2144D6D100E9829A /* PBXTargetDependency */,
+			);
+			name = MeChatTests;
+			productName = MeChatTests;
+			productReference = 07FA8F4C2144D6D100E9829A /* MeChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		07FA8F562144D6D100E9829A /* MeChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07FA8F662144D6D100E9829A /* Build configuration list for PBXNativeTarget "MeChatUITests" */;
+			buildPhases = (
+				07FA8F532144D6D100E9829A /* Sources */,
+				07FA8F542144D6D100E9829A /* Frameworks */,
+				07FA8F552144D6D100E9829A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07FA8F592144D6D100E9829A /* PBXTargetDependency */,
+			);
+			name = MeChatUITests;
+			productName = MeChatUITests;
+			productReference = 07FA8F572144D6D100E9829A /* MeChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07FA8F302144D6D000E9829A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Abner Castro";
+				TargetAttributes = {
+					07FA8F372144D6D000E9829A = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					07FA8F4B2144D6D100E9829A = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 07FA8F372144D6D000E9829A;
+					};
+					07FA8F562144D6D100E9829A = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 07FA8F372144D6D000E9829A;
+					};
+				};
+			};
+			buildConfigurationList = 07FA8F332144D6D000E9829A /* Build configuration list for PBXProject "MeChat" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07FA8F2F2144D6D000E9829A;
+			productRefGroup = 07FA8F392144D6D000E9829A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07FA8F372144D6D000E9829A /* MeChat */,
+				07FA8F4B2144D6D100E9829A /* MeChatTests */,
+				07FA8F562144D6D100E9829A /* MeChatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07FA8F362144D6D000E9829A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07FA8F462144D6D100E9829A /* LaunchScreen.storyboard in Resources */,
+				07FA8F432144D6D100E9829A /* Assets.xcassets in Resources */,
+				07FA8F412144D6D000E9829A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07FA8F4A2144D6D100E9829A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07FA8F552144D6D100E9829A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07FA8F342144D6D000E9829A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07FA8F3E2144D6D000E9829A /* ViewController.swift in Sources */,
+				07FA8F3C2144D6D000E9829A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07FA8F482144D6D100E9829A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07FA8F512144D6D100E9829A /* MeChatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07FA8F532144D6D100E9829A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07FA8F5C2144D6D100E9829A /* MeChatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07FA8F4E2144D6D100E9829A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07FA8F372144D6D000E9829A /* MeChat */;
+			targetProxy = 07FA8F4D2144D6D100E9829A /* PBXContainerItemProxy */;
+		};
+		07FA8F592144D6D100E9829A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07FA8F372144D6D000E9829A /* MeChat */;
+			targetProxy = 07FA8F582144D6D100E9829A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		07FA8F3F2144D6D000E9829A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07FA8F402144D6D000E9829A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		07FA8F442144D6D100E9829A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07FA8F452144D6D100E9829A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07FA8F5E2144D6D100E9829A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		07FA8F5F2144D6D100E9829A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07FA8F612144D6D100E9829A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MeChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = abner.MeChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		07FA8F622144D6D100E9829A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MeChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = abner.MeChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		07FA8F642144D6D100E9829A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MeChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = abner.MeChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeChat.app/MeChat";
+			};
+			name = Debug;
+		};
+		07FA8F652144D6D100E9829A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MeChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = abner.MeChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeChat.app/MeChat";
+			};
+			name = Release;
+		};
+		07FA8F672144D6D100E9829A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MeChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = abner.MeChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MeChat;
+			};
+			name = Debug;
+		};
+		07FA8F682144D6D100E9829A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MeChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = abner.MeChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MeChat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07FA8F332144D6D000E9829A /* Build configuration list for PBXProject "MeChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07FA8F5E2144D6D100E9829A /* Debug */,
+				07FA8F5F2144D6D100E9829A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07FA8F602144D6D100E9829A /* Build configuration list for PBXNativeTarget "MeChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07FA8F612144D6D100E9829A /* Debug */,
+				07FA8F622144D6D100E9829A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07FA8F632144D6D100E9829A /* Build configuration list for PBXNativeTarget "MeChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07FA8F642144D6D100E9829A /* Debug */,
+				07FA8F652144D6D100E9829A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07FA8F662144D6D100E9829A /* Build configuration list for PBXNativeTarget "MeChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07FA8F672144D6D100E9829A /* Debug */,
+				07FA8F682144D6D100E9829A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07FA8F302144D6D000E9829A /* Project object */;
+}
