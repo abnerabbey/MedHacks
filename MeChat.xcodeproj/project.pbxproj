@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		07FA8F3C2144D6D000E9829A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FA8F3B2144D6D000E9829A /* AppDelegate.swift */; };
-		07FA8F3E2144D6D000E9829A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FA8F3D2144D6D000E9829A /* ViewController.swift */; };
 		07FA8F412144D6D000E9829A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07FA8F3F2144D6D000E9829A /* Main.storyboard */; };
 		07FA8F432144D6D100E9829A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07FA8F422144D6D100E9829A /* Assets.xcassets */; };
 		07FA8F462144D6D100E9829A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07FA8F442144D6D100E9829A /* LaunchScreen.storyboard */; };
 		07FA8F512144D6D100E9829A /* MeChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FA8F502144D6D100E9829A /* MeChatTests.swift */; };
 		07FA8F5C2144D6D100E9829A /* MeChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FA8F5B2144D6D100E9829A /* MeChatUITests.swift */; };
+		07FA8F6C2144DC9100E9829A /* URLManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FA8F6B2144DC9100E9829A /* URLManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		07FA8F382144D6D000E9829A /* MeChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07FA8F3B2144D6D000E9829A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		07FA8F3D2144D6D000E9829A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		07FA8F402144D6D000E9829A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		07FA8F422144D6D100E9829A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07FA8F452144D6D100E9829A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		07FA8F572144D6D100E9829A /* MeChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07FA8F5B2144D6D100E9829A /* MeChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeChatUITests.swift; sourceTree = "<group>"; };
 		07FA8F5D2144D6D100E9829A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07FA8F6B2144DC9100E9829A /* URLManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +98,8 @@
 			isa = PBXGroup;
 			children = (
 				07FA8F3B2144D6D000E9829A /* AppDelegate.swift */,
-				07FA8F3D2144D6D000E9829A /* ViewController.swift */,
 				07FA8F3F2144D6D000E9829A /* Main.storyboard */,
+				07FA8F6B2144DC9100E9829A /* URLManager.swift */,
 				07FA8F422144D6D100E9829A /* Assets.xcassets */,
 				07FA8F442144D6D100E9829A /* LaunchScreen.storyboard */,
 				07FA8F472144D6D100E9829A /* Info.plist */,
@@ -256,8 +256,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07FA8F3E2144D6D000E9829A /* ViewController.swift in Sources */,
 				07FA8F3C2144D6D000E9829A /* AppDelegate.swift in Sources */,
+				07FA8F6C2144DC9100E9829A /* URLManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
