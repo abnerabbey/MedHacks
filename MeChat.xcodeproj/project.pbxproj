@@ -27,6 +27,9 @@
 		ADC6BB612144FDD4004E8362 /* SingIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADC6BB5F2144FDD3004E8362 /* SingIn.storyboard */; };
 		ADC6BB642144FDFC004E8362 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC6BB622144FDFC004E8362 /* SignInViewController.swift */; };
 		ADC6BB652144FDFC004E8362 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC6BB632144FDFC004E8362 /* SignUpViewController.swift */; };
+		ADF5B5CD214514410090D344 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF5B5CC214514410090D344 /* HistoryViewController.swift */; };
+		ADF5B5CF21451E740090D344 /* ToneModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF5B5CE21451E740090D344 /* ToneModel.swift */; };
+		ADF5B5D1214520160090D344 /* CellTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF5B5D0214520160090D344 /* CellTableView.swift */; };
 		F4738C4958CC88A1FCCA3FFA /* Pods_MeChatUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0C421A37613E9AC62437DCF /* Pods_MeChatUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -77,6 +80,9 @@
 		ADC6BB602144FDD3004E8362 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../../Documents/MedHacks2018/MedHacks/Base.lproj/SingIn.storyboard; sourceTree = "<group>"; };
 		ADC6BB622144FDFC004E8362 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignInViewController.swift; path = "../../../../Documents/MedHacks2018/MedHacks/New Group/SignInViewController.swift"; sourceTree = "<group>"; };
 		ADC6BB632144FDFC004E8362 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignUpViewController.swift; path = "../../../../Documents/MedHacks2018/MedHacks/New Group/SignUpViewController.swift"; sourceTree = "<group>"; };
+		ADF5B5CC214514410090D344 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		ADF5B5CE21451E740090D344 /* ToneModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToneModel.swift; sourceTree = "<group>"; };
+		ADF5B5D0214520160090D344 /* CellTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellTableView.swift; sourceTree = "<group>"; };
 		BB8FA58CB16D85C76F658597 /* Pods_MeChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D08888390606DE20073143A1 /* Pods-MeChatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeChatTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MeChatTests/Pods-MeChatTests.release.xcconfig"; sourceTree = "<group>"; };
 		D1A20B2462D7601F76518389 /* Pods-MeChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-MeChat/Pods-MeChat.release.xcconfig"; sourceTree = "<group>"; };
@@ -145,6 +151,9 @@
 				ADC6BB4E2144F2BA004E8362 /* ChatBotCollectionViewController.swift */,
 				ADC6BB5F2144FDD3004E8362 /* SingIn.storyboard */,
 				07FA8F3F2144D6D000E9829A /* Main.storyboard */,
+				ADF5B5D0214520160090D344 /* CellTableView.swift */,
+				ADF5B5CC214514410090D344 /* HistoryViewController.swift */,
+				ADF5B5CE21451E740090D344 /* ToneModel.swift */,
 				ADC6BB4B2144E426004E8362 /* ViewController.swift */,
 				07FA8F6B2144DC9100E9829A /* URLManager.swift */,
 				07FA8F422144D6D100E9829A /* Assets.xcassets */,
@@ -469,8 +478,11 @@
 				ADC6BB4C2144E426004E8362 /* ViewController.swift in Sources */,
 				ADC6BB5A2144FC62004E8362 /* ChatMessageCell.swift in Sources */,
 				ADC6BB652144FDFC004E8362 /* SignUpViewController.swift in Sources */,
+				ADF5B5CF21451E740090D344 /* ToneModel.swift in Sources */,
+				ADF5B5CD214514410090D344 /* HistoryViewController.swift in Sources */,
 				07FA8F3C2144D6D000E9829A /* AppDelegate.swift in Sources */,
 				ADC6BB642144FDFC004E8362 /* SignInViewController.swift in Sources */,
+				ADF5B5D1214520160090D344 /* CellTableView.swift in Sources */,
 				ADC6BB5E2144FC71004E8362 /* Message.swift in Sources */,
 				07FA8F6C2144DC9100E9829A /* URLManager.swift in Sources */,
 				ADC6BB5D2144FC71004E8362 /* User.swift in Sources */,
