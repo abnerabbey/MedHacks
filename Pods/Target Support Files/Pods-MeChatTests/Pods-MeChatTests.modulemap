@@ -1,0 +1,6 @@
+framework module Pods_MeChatTests {
+  umbrella header "Pods-MeChatTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
